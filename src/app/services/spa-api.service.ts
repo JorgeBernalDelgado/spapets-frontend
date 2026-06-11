@@ -8,7 +8,7 @@ import { RegistroSpa } from './../models/registro-spa.model';
 })
 export class SpaApiService {
   //private apiUrl = 'http://localhost:8080/api/spa';
-  private apiUrl = 'http://CAMBIA_ESTO_LUEGO:8080/api/spa';
+  private apiUrl = 'http://18.225.176.93:8080/api/spa';
 
   constructor(private http: HttpClient) { }
 
