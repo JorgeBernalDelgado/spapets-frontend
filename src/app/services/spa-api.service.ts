@@ -8,7 +8,8 @@ import { RegistroSpa } from './../models/registro-spa.model';
 })
 export class SpaApiService {
   //private apiUrl = 'http://localhost:8080/api/spa';
-  private apiUrl = 'http://18.225.176.93:8080/api/spa';
+  // Ahora usamos https y el puerto 8443
+  private apiUrl = 'https://18.225.176.93:8443/api/spa';
 
   constructor(private http: HttpClient) { }
 
